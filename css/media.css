@@ -1,0 +1,117 @@
+@media (max-width: 1200px){
+    .navbar-dark .navbar-nav .nav-link
+    {
+        font-size: 15px;
+    }
+  
+ 
+}
+@media (max-width: 1024px){
+    .navbar-dark .navbar-nav .nav-link
+    {
+        font-size: 15px;
+    }
+
+}
+@media (max-width: 991px){
+    .nav-toggle {
+     
+        z-index: 2;
+        color: #0083F2 !important;
+        display: block !important;
+        line-height: 40px;
+        margin-right: 10px;
+      
+    }
+    .nav-toggle.expanded
+    {
+        margin: 10px;
+    }
+  
+    header#up
+    {
+        background: #fff;
+    }
+    .fixed.scrolled a.nav-link.scroll:after
+    {
+        display: none;
+    }
+    .fixed a.nav-link.scroll{
+        color: #0083F2 !important;
+    }
+
+    .navbar .navbar-nav > .active > a:after, .navbar .navbar-nav > li > a:hover:after, .navbar .navbar-nav > a:hover:after, .navbar .navbar-nav > .active > a:focus:after
+    {
+        width: 0;
+    }
+    #up{
+        position: relative;
+    }
+
+    .copyright{
+        text-align: center !important;
+    }
+    .blockLight{
+        height: 500px !important;
+    }
+    #cover .powerLight h1 
+    {
+        font-size: 30px !important;
+    }
+    #cover .powerLight p{
+        color: #2B2B2B !important;
+    }
+
+}
+@media (max-width: 800px){
+
+ 
+  
+
+}
+@media (max-width: 768px){
+
+
+}
+
+@media (max-width: 767px){
+    #cover .powerLight p{
+        color: #605f5f !important;
+    }
+    #cover .card {
+        height: 260px !important;
+        margin: 20px auto !important;
+    }#cover .blockLight{
+        height: 290px !important;
+    }
+    #proparty .card{
+        border:none;
+    }
+  
+}
+@media (max-width: 480px){
+   
+    #cover .card {
+        height: 380px !important;
+    }
+    #cover .blockLight{
+        height: 400px !important;
+    }
+ 
+}
+@media (max-height: 450px) {
+
+
+  }
+@media (max-width: 380px){
+
+   
+  
+}
+@media (max-width: 320px){
+  
+}
+
+.navside {
+    z-index: 999999;
+}
