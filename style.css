@@ -71,7 +71,7 @@ a {
 .navbar a.nav-link.scroll, .navbar a.nav-link.scroll:hover, .navbar .nav-item .active a {
   font-size: 14px;
   position: relative;
-  color: #0083F2 !important;
+  color: #fff !important;
   text-transform: uppercase;
 }
 

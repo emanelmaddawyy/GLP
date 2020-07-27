@@ -39,7 +39,9 @@
     .fixed a.nav-link.scroll{
         color: #0083F2 !important;
     }
-
+    .navbar a.nav-link.scroll, .navbar a.nav-link.scroll:hover, .navbar .nav-item .active a {
+        color: #0083F2 !important;
+    }
     .navbar .navbar-nav > .active > a:after, .navbar .navbar-nav > li > a:hover:after, .navbar .navbar-nav > a:hover:after, .navbar .navbar-nav > .active > a:focus:after
     {
         width: 0;
